@@ -14,7 +14,8 @@
     "react-native-web": "^0.17.7",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-app-rewired": "^2.2.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -39,8 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "react-app-rewired": "^2.2.1"
   }
 }
