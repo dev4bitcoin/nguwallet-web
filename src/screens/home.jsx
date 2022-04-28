@@ -1,10 +1,8 @@
 import React, { Fragment } from "react";
 import home from '../assets/appimage.png';
-import apple from '../assets/apple.png'
 import common from "../common/common";
-// import playstore from '../assets/playstore.png'
 import FeatureCard from "../components/featureCard";
-
+import MaterialCommunityIcon from 'react-native-vector-icons/dist/MaterialCommunityIcons';
 
 const Home = () => {
     return (
@@ -14,26 +12,21 @@ const Home = () => {
                     <div className="text"><h1>Simple Bitcoin Testnet Wallet</h1></div>
                     <div className="download-container">
                         <div className="download-pill inline-block">
-                            <img className="logo"
-                                src={apple}
-                                width={40}
-                                alt=""
-                            />
+                            <div className="logo inline-block">
+                                <MaterialCommunityIcon name="apple" size={50} color="#fff" />
+                            </div>
                             <div className="download-pill-text-panel inline-block">
                                 <div className="text">Download on the</div>
                                 <div className="text text-bold">App Store</div>
                             </div>
                         </div>
                         {/* <div className="download-pill inline-block">
-                            <img className="logo"
-                                src={playstore}
-                                width={40}
-                                height={50}
-                                 alt=""
-                            />
+                            <div className="logo inline-block">
+                                <MaterialCommunityIcon name="google-play" size={50} color="#fff" />
+                            </div>
                             <div className="download-pill-text-panel inline-block">
                                 <div className="text">Download on the</div>
-                                <div className="text">Google Play</div>
+                                <div className="text text-bold">Play Store</div>
                             </div>
                         </div> */}
                     </div>
@@ -52,7 +45,7 @@ const Home = () => {
                             title={card.title}
                             subtitle={card.subtitle}
                             hasAdditional={card.hasAdditional}
-                            imageSrc={card.src} />
+                            iconName={card.iconName} />
                     ))}
                 </div>
             </div>

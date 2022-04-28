@@ -1,14 +1,19 @@
 import React from "react";
+import MaterialCommunityIcon from 'react-native-vector-icons/dist/MaterialCommunityIcons';
 
-const FeatureCard = ({ title, subtitle, imageSrc, hasAdditional }) => {
+
+const FeatureCard = ({ title, subtitle, iconName, hasAdditional }) => {
     return (
         <div className="feature-card">
             <div className="card-logo ">
-                <img
+                <MaterialCommunityIcon name={iconName} size={40} color="#fff" />
+
+                {/* <img
                     src={imageSrc}
                     width={50}
                     height={50}
-                    alt="" />
+                    alt="" /> */}
+
             </div>
             <div className="feature-card-title">{title}</div>
             <div className="feature-card-subtitle">{subtitle}</div>
