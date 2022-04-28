@@ -6,14 +6,7 @@ const FeatureCard = ({ title, subtitle, iconName, hasAdditional }) => {
     return (
         <div className="feature-card">
             <div className="card-logo ">
-                <MaterialCommunityIcon name={iconName} size={40} color="#fff" />
-
-                {/* <img
-                    src={imageSrc}
-                    width={50}
-                    height={50}
-                    alt="" /> */}
-
+                <MaterialCommunityIcon name={iconName} size={45} color="#fff" />
             </div>
             <div className="feature-card-title">{title}</div>
             <div className="feature-card-subtitle">{subtitle}</div>
