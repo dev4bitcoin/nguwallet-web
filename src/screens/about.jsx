@@ -12,7 +12,7 @@ const About = () => {
                     I am a software developer who is completely addicted to Bitcoin. I also want to help other developers and beginners to play with the wallets without fear of losing their funds.
                 </p>
                 <p>
-                    The app works exactly as mainnet network and all the code is open and free. Application is also tested in mainnet network, but I decided to keep it only for testnet, since i dont want to risk people's money in the case of unknown bugs and without complete testing.
+                    The app works exactly as mainnet network and all the code is open and free. Application is also tested in mainnet network, but I decided to keep it only for testnet because there is more to be done.
                 </p>
 
                 <p>

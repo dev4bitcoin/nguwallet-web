@@ -16,7 +16,7 @@ const Privacy = () => {
                 </p>
                 <p>
                     We do not sell, trade, or otherwise transfer to outside parties
-                    your personally identifiable information.
+                    because we dont collect information.
                 </p>
                 <p className="privacy-header">
                     Your Consent
