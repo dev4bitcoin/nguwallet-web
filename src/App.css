@@ -3,7 +3,7 @@
 }
 
 .app-container {
-  height: 100%
+  height: 100%;
 }
 
 .App-logo {
@@ -117,8 +117,8 @@ div#root {
 }
 
 .features {
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 50px;
 }
 
@@ -251,6 +251,30 @@ div#root {
   .about {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .features {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .features {
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 50px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .features {
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 50px;
   }
 }
 
